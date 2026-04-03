@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+package-lock.json
+package.json
+
+# Environment / Secret
+.env
+dbbackup.zip
+
+# IDEs and Tools
+.vscode/
+.agent/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build and Temp files
+frontend/build/
+backend/uploads/*
+!backend/uploads/.gitkeep
+dist/
+tmp/
+temp_*.js
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Documentation Drafts & Utility Scripts (Project Clean-up)
+# Keeping only the final documentation: Healthcare_Hub_Complete_Documentation_FINAL.docx
+Healthcare\ Hub.docx
+HealthcareHub_MenuTree_Documentation.docx
+Healthcare_Hub_Complete_Workflow.docx
+Healthcare_Hub_Corrected_Documentation.docx
+Healthcare_Hub_DFD_Workflow.docx
+Healthcare_Hub_Documentation_FULL\ (1).docx
+Healthcare_Hub_Documentation_REARRANGED_COMPLETE.docx
+Healthcare_Hub_Documentation_v2.docx
+Healthcare_Hub_Final_Documentation.docx
+Healthcare_Hub_Full_Restructured_Report.docx
+Modular\ Description-Healthcarehub.docx
+abstract.txt
+Grocery_System_Design.docx
+pdf_content.txt
+docx_content.md
+docx_content_utf8.md
+extracted_doc.txt
+referencedoc.pdf
+documentationReference.pdf
+
+# Extraction & Generation Scripts
+extract_pdf.js
+extract_pdf.py
+debug_pdf.js
+generate_*.py
+reconstruct_*.py
